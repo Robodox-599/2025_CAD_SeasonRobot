@@ -19,3 +19,22 @@ pantherbot ramp sketch.SLDPRT
 protosketchclimb v7.SLDPRT
 S-25-A-0000.SLDASM
 ~$clamp top view.SLDPRT
+
+# ignores fea runoff
+*.BD2
+*.CWR
+*.CT3
+*.BDF
+*.MFC
+*.SL4
+*.MAS
+*.SL3
+*.LCD
+*.GEN
+*.LDS
+*.IDA
+*.STE
+
+# ignores solidworks scrap
+~$*
+
